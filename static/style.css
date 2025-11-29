@@ -1,0 +1,91 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6;
+}
+
+header {
+  background: #111827;
+  color: #f9fafb;
+  padding: 1rem 2rem;
+}
+
+main {
+  padding: 1.5rem 2rem;
+}
+
+h1, h2 {
+  margin: 0 0 1rem;
+}
+
+.new-order, .orders {
+  background: #ffffff;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem 1rem;
+  align-items: end;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+input {
+  margin-top: 0.25rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+}
+
+button {
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+th, td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.flash {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: #ecfdf5;
+  color: #166534;
+  border-radius: 0.75rem;
+  border: 1px solid #bbf7d0;
+}
